@@ -36,6 +36,7 @@
 
 \DeclareStringOption[]{phone}
 \DeclareStringOption[]{email}
+\DeclareStringOption[]{github}
 
 \DeclareStringOption[]{company}
 \DeclareStringOption[]{start}
@@ -61,14 +62,6 @@
   }
 }
 
-% \newcommand{\newkvenv}[3]{%
-%   \newenvironment{#1}[1]{%
-%     \setkeys{frugal}{##1}%
-%     #2
-%   }%
-%   { #3}%
-% }
-
 \newcommand{\applicant}[1]{%
     \bgroup
         \setlength{\parindent}{0pt}
@@ -89,8 +82,9 @@
 
 \newkvcmd{\contact}{
   \begin{tabbing}
-  \emph{Telefone:}~~~ \= \frugal@phone\\
-  \emph{Email:}       \> \href{mailto:\frugal@email}{\frugal@email}\\
+  \emph{Telephone:}~~~ \= \frugal@phone\\
+  \emph{Email:}        \> \href{mailto:\frugal@email}{\frugal@email}\\
+  \emph{Github:}       \> \href{https://github.com/\frugal@github}{\frugal@github}\\
   \end{tabbing}
 }
 
@@ -127,7 +121,7 @@
 {}
 
 \newkvcmd{\degree}{%
-  \Large{\emph{\frugal@degree~em\ \frugal@course}}\parr
+  \Large{\emph{\frugal@degree~in\ \frugal@course}}\parr
   \normalsize%
   \frugal@institution~\frugal@date.
   \par
