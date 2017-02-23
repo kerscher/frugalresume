@@ -4,8 +4,7 @@ A curriculum vitae class for LuaLaTeX and XeLaTeX with classic typography and la
 
 ## Requirements
 
-* [LuaTeX](http://luatex.org/) and LuaLaTeX, or:
-* [XeTeX](http://xetex.sourceforge.net/) and XeLaTeX
+* [LuaTeX](http://luatex.org/) and LuaLaTeX, or [XeTeX](http://xetex.sourceforge.net/) and XeLaTeX
 * [typographydefaults](https://github.com/kerscher/typographydefaults)
 * [CTAN](http://www.ctan.org/) packages:
     * parskip
