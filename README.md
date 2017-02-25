@@ -1,5 +1,7 @@
 # ```frugalresume```
 
+![BSD3 license](https://img.shields.io/badge/licence-BSD%202--clause-blue.svg)
+
 A curriculum vitae class for LuaLaTeX and XeLaTeX with classic typography and layout.
 
 ## Requirements
